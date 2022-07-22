@@ -94,7 +94,9 @@ void func_809613FC(ObjMure2* this, PlayState* play) {
     }
 }
 
-#pragma GLOBAL_ASM("asm/non_matchings/overlays/ovl_Obj_Mure2/func_8096147C.s")
+void func_8096147C(ObjMure2* arg0) {
+    arg0->actionFunc = func_80961490;
+}
 
 #pragma GLOBAL_ASM("asm/non_matchings/overlays/ovl_Obj_Mure2/func_80961490.s")
 
